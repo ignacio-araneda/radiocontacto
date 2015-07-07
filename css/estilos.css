@@ -4,13 +4,13 @@
 body 
 {
 	
-	background:  #4D87CE;
+	background:  #0EBBA0;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 }
 header 
 {
-	background: #4D87CE;
+	background: #0EBBA0;
 	
 }
 
@@ -54,7 +54,7 @@ figure #portada
 
 	figure #portada
 {
-	max-width: 80%;
+	max-width: 100%;
 }
 
 	#publi_igle
