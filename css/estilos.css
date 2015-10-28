@@ -1,17 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-
 body 
 {
-	
 	background:  #0EBBA0;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 }
+
 header 
 {
 	background: #0EBBA0;
-	
 }
 
 figure #portada
@@ -23,7 +21,6 @@ figure #portada
 {
 	display: none;
 }
-
 
 .contenedor
 {
@@ -40,8 +37,6 @@ figure #portada
 .contenedor article iframe, .contenedor #player_radio audio 
 {
 	width: 100%;
-	/*min-height: 300px;*/
-
 }
 
 #player_radio figure
@@ -50,12 +45,10 @@ figure #portada
 }
 
 @media screen and (min-width: 800px) {
-
-
-	figure #portada
-{
-	max-width: 100%;
-}
+    figure #portada
+    {
+	    max-width: 100%;
+    }
 
 	#publi_igle
 	{
@@ -70,23 +63,13 @@ figure #portada
 		width: 100%;
 	}
 
-
-
-	/*#player_radio
-	{
-		width: 65%;
-	}*/
-
 	#chat_radio
 	{
-
 		margin-left: .5%;
 		width: 34%;
-
 	}
 
 	.contenedor article
-
 	{
 		display: block;
 		vertical-align: top;
@@ -94,11 +77,6 @@ figure #portada
 
 	.contenedor article iframe
 	{
-
-	min-height: 500px;
-
-
+	    min-height: 500px;
 	}
-
-
 }
